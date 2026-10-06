@@ -156,7 +156,7 @@
 				"windows"
 				{
 					"signature" "CGameMovement::TryPlayerMove"
-					"read" "793"
+					"read" "826"
 				}
 				"linux"
 				{
@@ -214,7 +214,7 @@
 			"CGameMovement::TryPlayerMove"
 			{
 				"library"               "server"
-				"windows"               "\x55\x8B\xEC\x81\xEC\x2A\x01\x00\x00\x56\x57\x33\xC0"
+				"windows"               "\x55\x8B\xEC\x81\xEC\x2A\x01\x00\x00\x56\x57\x8B\xF9\x33\xC0"
 				"linux"                 "@_ZN13CGameMovement13TryPlayerMoveEP6VectorP10CGameTracef"
 			}
 			
